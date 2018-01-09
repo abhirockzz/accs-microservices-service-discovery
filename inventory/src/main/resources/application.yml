@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: ${ORA_APP_NAME:inventory}
+  cloud:
+    zookeeper:
+      connect-string: ${ZOOKEEPER:localhost:2181}
+
+management:
+  security:
+    enabled: false

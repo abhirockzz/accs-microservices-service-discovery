@@ -1,0 +1,7 @@
+{
+    "runtime": {
+        "majorVersion": "8"
+    },
+	"isClustered":"true",
+    "command": "java -jar product.jar --server.port=$PORT"
+	}

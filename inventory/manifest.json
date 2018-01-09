@@ -1,0 +1,8 @@
+{
+    "runtime": {
+        "majorVersion": "8"
+    },
+	"type":"worker",
+	"isClustered":"true",
+    "command": "java -jar inventory.jar --server.port=$PORT"
+}
